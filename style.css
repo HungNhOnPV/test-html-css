@@ -139,7 +139,7 @@ a {
 
 .navbar .dropdown .item {
   left: -750px;
-  min-width: 1000px;
+  min-width: 1030px;
 }
 
 .navbar .dropdown .products {
@@ -203,7 +203,7 @@ td a:hover {
 }
 
 .menu-banner {
-  width: 310px;
+  width: 320px;
   height: 185px;
   margin: 10px 11px;
 }
@@ -310,3 +310,112 @@ td a:hover {
 .navbar .dropdown .product {
   left: -200px;
 }
+
+/* main-content contact */
+.contact .contact-us {
+  width: 55%;
+  margin: 50px 20px;
+}
+
+.contact .contact-us .tittle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.contact .contact-us .description {
+  color: rgb(114, 114, 114);
+  font-size: 14px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.contact .map {
+  margin: 50px 0;
+}
+
+form .form-control {
+  font-size: 16px;
+  padding: 15px 15px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+form .form {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+form .form:focus {
+  outline: #ced4da auto 1px;
+    outline-color: #ced4da;
+    outline-style: auto;
+    outline-width: 1px;
+}
+
+form .form-message {
+  font-size: 16px;
+  padding: 15px 15px;
+  width: 456px;
+  margin-bottom: 15px;
+}
+
+form .btn {
+  text-transform: capitalize;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: 1px solid #FF324D;
+  border-radius: 5px;
+  font-family: "roboto-bold";
+  color: #FFF;
+  background-color: #FF324D;
+  transition: ease 0.4s;
+}
+
+form .btn:hover {
+  border: 1px solid #FF324D;
+  background-color: #FFF;
+  color: #FF324D;
+}
+
+/* section */
+.section {
+  background-color: #FF324D;
+}
+
+.section .subscribe {
+  font-family: 'roboto-bold';
+  font-size: 20px;
+  margin: 50px 0;
+  color: #FFF;
+}
+
+.section .form {
+  margin-left: auto;
+  margin-top: 43px;
+}
+
+.section .form .form-control {
+  padding: 15px 15px;
+  width: 400px;
+  font-size: 16px;
+  border: #FFF;
+}
+
+.section .form .form-control:focus {
+  outline: #FFF auto 1px;
+    outline-color: #FFF;
+    outline-style: none;
+    outline-width: 1px;
+}
+
+.section .form .btn {
+  font-size: 16px;
+  padding: 15px 15px;
+  background-color: black;
+  color: #FFF;
+  border: black;
+}
+/* footer */
