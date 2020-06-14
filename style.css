@@ -603,3 +603,193 @@ form .btn:hover {
   width: 100%;
   text-align: center;
 }
+
+.main-content .content {
+  margin-top: 50px;
+}
+
+.content .singer-banner1 {
+  margin-right: 30px;
+}
+
+.content .singer-banner {
+  position: relative;
+  overflow: hidden;
+  width: 540px;
+  height: 300px;
+}
+
+.content .singer-banner img {
+  transition: ease 0.4s;
+}
+
+.content .singer-banner:hover img {
+  transition: ease 0.4s;
+  transform: scale(1.07);
+}
+
+.content .singer-banner-info {
+  position: absolute;
+  top: 100px;
+  right: 65px;
+  line-height: 2;
+}
+
+.content .singer-banner-info p {
+  font-family: "roboto-bold";
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.content .singer-banner-info h2 {
+  font-family: "roboto-bold";
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.content .singer-banner-info .btn {
+  font-size: 14px;
+  cursor: pointer;
+  transition: ease 0.4s;
+}
+
+.content .singer-banner-info .btn::before {
+  content: '';
+  display: block;
+  background-color: rgba(255,50,77,0.2);
+  width: 60px;
+  height: 6px;
+  position: relative;
+  top: 21px;
+}
+
+.content .singer-banner-info .btn:hover {
+  color: #FF324D;
+}
+
+.section-products {
+  margin-top: 50px;
+}
+
+.section-products .container {
+  text-align: center;
+}
+
+.section-products .container h1 {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-family: "roboto-bold";
+  color: #292b2c;
+}
+
+.section-products .container h1::after {
+  content: '';
+  display: block;
+  width: 280px;
+  height: 1px;
+  background-color: #FF324D;
+  margin: auto;
+}
+
+.section-products .container .row {
+  justify-content: space-between;
+}
+
+.section-products .product {
+  position: relative;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.section-products .product .sale {
+  position: absolute;
+  background-color: #28a745;
+  color: #FFF;
+  z-index: 2;
+  padding: 4px 8px;
+  left: 10px;
+  top: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.section-products .product img {
+  width: 255px;
+  height: 283px;
+}
+
+.section-products .product .product-img {
+  position: relative;
+  transition: ease 1s;
+}
+
+.section-products .product:hover .product-img a::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  display: block;
+  width: 255px;
+  height: 283px;
+  background: rgba(0,0,0,0.2);
+  transition: ease 0.4s;
+}
+
+.section-products .product .product-action {
+  position: absolute;
+  z-index: 2;
+  top: 150px;
+  left: 35px;
+}
+
+.section-products .product .product-action a {
+  padding: 7px 8px;
+  font-size: 16px;
+  background-color: #FFF;
+  margin: 5px;
+}
+
+.section-products .product .product-action {
+  display: none;
+  transition: ease 0.4s;
+}
+
+.section-products .product:hover .product-img ~ .product-action {
+  display: block;
+  transition: ease 0.4s;
+}
+
+.section-products .product .product-info {
+  line-height: 1.7;
+  text-align: left;
+  margin: 10px 15px;
+}
+
+.section-products .product .product-info h4 {
+  text-transform: capitalize;
+  transition: ease 0.4s;
+}
+
+.section-products .product .product-info h4:hover {
+  color: #ff324d;
+  
+}
+
+.section-products .product .product-info del {
+  font-size: 15px;
+}
+
+.section-products .product .product-info ins {
+  font-size: 15px;
+  text-decoration: none;
+  color: #FF324D;
+}
+
+.section-products .product .product-info .rating-wrap {
+  font-size: 12px;
+  color: #F6BC3E;
+}
+
+.section-products .product .product-info .rating-wrap span {
+  color: #333;
+}
