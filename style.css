@@ -258,6 +258,7 @@ td a:hover {
   width: 35px;
   height: 1px;
   background-color: #333;
+  transition: 0.5s ease;
 }
 
 .info a:hover::after {
@@ -721,7 +722,18 @@ form .btn:hover {
 
 .section-products .product .product-img {
   position: relative;
-  transition: ease 1s;
+}
+
+.section-products .product .product-img a::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  display: block;
+  width: 255px;
+  height: 283px;
+  background: transparent;
+  border-radius: 3px;
+  transition: ease 0.5s;
 }
 
 .section-products .product:hover .product-img a::after {
@@ -732,7 +744,8 @@ form .btn:hover {
   width: 255px;
   height: 283px;
   background: rgba(0,0,0,0.2);
-  transition: ease 0.4s;
+  border-radius: 3px;
+  transition: ease 0.5s;
 }
 
 .section-products .product .product-action {
@@ -750,13 +763,13 @@ form .btn:hover {
 }
 
 .section-products .product .product-action {
-  display: none;
-  transition: ease 0.4s;
+  opacity: 0;
+  transition: ease 0.5s;
 }
 
-.section-products .product:hover .product-img ~ .product-action {
-  display: block;
-  transition: ease 0.4s;
+.section-products .product:hover .product-action {
+  opacity: 1;
+  transition: ease 0.5s;
 }
 
 .section-products .product .product-info {
