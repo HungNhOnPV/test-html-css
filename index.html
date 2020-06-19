@@ -13,18 +13,18 @@
     <header>
       <div class="container">
         <div class="row">
-          <div class="language dropdown">
-            <a class="en" href="#">English <i class="fas fa-angle-down"></i></a>
-            <ul class="dropdown-content">
+          <div class="dropdown">
+            <a class="dropdown__en" href="#">English <i class="fas fa-angle-down"></i></a>
+            <ul class="dropdown__content">
               <li><a href="#">English</a></li>
               <li><a href="#">France</a></li>
               <li><a href="#">United States</a></li>
             </ul>
           </div>
 
-          <div class="currency dropdown">
-            <a class="en" href="#">USD <i class="fas fa-angle-down"></i></a>
-            <ul class="dropdown-content">
+          <div class="dropdown">
+            <a class="dropdown__en" href="#">USD <i class="fas fa-angle-down"></i></a>
+            <ul class="dropdown__content">
               <li><a href="#">USD</a></li>
               <li><a href="#">EUR</a></li>
               <li><a href="#">GBR</a></li>
@@ -32,8 +32,8 @@
           </div>
 
           <div class="auth">
-            <div class="sign-in"><i class="fas fa-user"></i> Sign in</div>
-            <div class="sign-out sign-in">
+            <div class="auth__signIn"><i class="fas fa-user"></i> Sign in</div>
+            <div class="auth__signIn">
               <i class="fas fa-lock"></i> Sign out
             </div>
           </div>
@@ -50,10 +50,10 @@
 
           <div class="navbar">
             <div class="dropdown">
-              <span class="en" type="button"
+              <span class="dropdown__en" type="button"
                 >Home <i class="fas fa-angle-down"></i
               ></span>
-              <ul class="dropdown-content">
+              <ul class="dropdown__content">
                 <li><a href="#">Fashion1</a></li>
                 <li><a href="#">Fashion2</a></li>
                 <li><a href="#">Fashion3</a></li>
@@ -64,8 +64,8 @@
             </div>
 
             <div class="dropdown">
-              <span class="en">Page <i class="fas fa-angle-down"></i></span>
-              <ul class="dropdown-content">
+              <span class="dropdown__en">Page <i class="fas fa-angle-down"></i></span>
+              <ul class="dropdown__content">
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Contact us</a></li>
                 <li><a href="#">Faq</a></li>
@@ -77,8 +77,8 @@
             </div>
 
             <div class="dropdown">
-              <span class="en">Products <i class="fas fa-angle-down"></i></span>
-              <div class="item dropdown-content products">
+              <span class="dropdown__en">Products <i class="fas fa-angle-down"></i></span>
+              <div class="item dropdown__content products">
                 <div class="content">
                   <table style="width: 100%;">
                     <tr>
@@ -121,11 +121,11 @@
                 </div>
                 <div class="banner">
                   <img
-                    class="menu-banner"
+                    class="banner__menu"
                     src="./image/menu_banner1-1.webp"
-                    alt="menu-banner1"
+                    alt="banner__menu1"
                   />
-                  <div class="info">
+                  <div class="banner__info">
                     <h4>10% Off</h4>
                     <h2>New arrival</h2>
                     <h4><a href="#">Show now</a></h4>
@@ -133,11 +133,11 @@
                 </div>
                 <div class="banner">
                   <img
-                    class="menu-banner"
+                    class="banner__menu"
                     src="./image/menu_banner2-1.webp"
-                    alt="menu-banner1"
+                    alt="banner__menu1"
                   />
-                  <div class="info">
+                  <div class="banner__info">
                     <h4>15% Off</h4>
                     <h2>Men's fashion</h2>
                     <h4><a href="#">Show now</a></h4>
@@ -145,11 +145,11 @@
                 </div>
                 <div class="banner">
                   <img
-                    class="menu-banner"
+                    class="banner__menu"
                     src="./image/menu_banner3-1.webp"
-                    alt="menu-banner1"
+                    alt="banner__menu1"
                   />
-                  <div class="info">
+                  <div class="banner__info">
                     <h4>23% Off</h4>
                     <h2>Kids fashion</h2>
                     <h4><a href="#">Show now</a></h4>
@@ -159,8 +159,8 @@
             </div>
 
             <div class="dropdown">
-              <span class="en">Shop <i class="fas fa-angle-down"></i></span>
-              <div class="item dropdown-content">
+              <span class="dropdown__en">Shop <i class="fas fa-angle-down"></i></span>
+              <div class="item dropdown__content">
                 <div class="content">
                   <table style="width: 75%;">
                     <tr>
@@ -192,10 +192,10 @@
                       <td><a href="#">List right sidebar</a></td>
                     </tr>
                   </table>
-                  <div class="shop-banner">
-                    <img src="./image/shop_banner-1.webp" alt="shop-banner" />
-                    <div class="layout"></div>
-                    <div class="info">
+                  <div class="banner__shop">
+                    <img src="./image/shop_banner-1.webp" alt="banner__shop" />
+                    <div class="banner__layout"></div>
+                    <div class="banner__info">
                       <h4>New collection</h4>
                       <h2>Sale 30% off</h2>
                       <button href="#" type="button">Shop now</button>
@@ -206,26 +206,26 @@
             </div>
 
             <div class="dropdown">
-              <a class="en" href="#">Blog</a>
+              <a class="dropdown__en" href="#">Blog</a>
             </div>
 
             <div class="dropdown">
-              <a class="en" href="#">Contact us</a>
+              <a class="dropdown__en" href="#">Contact us</a>
             </div>
 
             <div class="dropdown">
-              <a class="navbar-icon en" href="#"
+              <a class="dropdown__en dropdown-icon" href="#"
                 ><i class="fas fa-search"></i
               ></a>
             </div>
 
             <div class="dropdown">
-              <a class="navbar-icon en" href="#"
+              <a class="dropdown__en dropdown-icon" href="#"
                 ><i class="fas fa-shopping-cart">
                   <span class="cart">0</span>
                 </i></a
               >
-              <ul class="dropdown-content product">
+              <ul class="dropdown__content product">
                 <li><a href="#">No products in the cart</a></li>
               </ul>
             </div>
@@ -236,7 +236,7 @@
 
     <div class="main-content">
       <section>
-        <div class="slider-banner">
+        <div class="sliderBanner">
           <div class="row">
             <article id="slider-content">
               <p>Get up to 50% off Today Only!</p>
@@ -513,119 +513,6 @@
               </div>
             </div>
 
-            <div class="row">
-              <div class="product">
-                <span class="sale">- 40%</span>
-                <div class="product-img">
-                  <a href="#">
-                    <img src="./image/product_img9-1.webp" alt="product img">
-                  </a>
-                </div>
-                <div class="product-action">
-                  <a href="#"><i class="fas fa-cart-arrow-down"></i></a>
-                  <a href="#"><i class="fas fa-random"></i></a>
-                  <a href="#"><i class="fas fa-search-plus"></i></a>
-                  <a href="#"><i class="far fa-heart"></i></a>
-                </div>
-                <div class="product-info">
-                  <h4>Blue dress for woman</h4>
-                  <del>£ 65.00</del>&nbsp;
-                  <ins>£ 39.00</ins>
-                  <div class="rating-wrap">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <span class="rating-num">(1)</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="product">
-                <span class="sale">- 40%</span>
-                <div class="product-img">
-                  <a href="#">
-                    <img src="./image/product_img10-1.webp" alt="product img">
-                  </a>
-                </div>
-                <div class="product-action">
-                  <a href="#"><i class="fas fa-cart-arrow-down"></i></a>
-                  <a href="#"><i class="fas fa-random"></i></a>
-                  <a href="#"><i class="fas fa-search-plus"></i></a>
-                  <a href="#"><i class="far fa-heart"></i></a>
-                </div>
-                <div class="product-info">
-                  <h4>Blue dress for woman</h4>
-                  <del>£ 65.00</del>&nbsp;
-                  <ins>£ 39.00</ins>
-                  <div class="rating-wrap">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <span class="rating-num">(1)</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="product">
-                <span class="sale">- 40%</span>
-                <div class="product-img">
-                  <a href="#">
-                    <img src="./image/product_img11-1.webp" alt="product img">
-                  </a>
-                </div>
-                <div class="product-action">
-                  <a href="#"><i class="fas fa-cart-arrow-down"></i></a>
-                  <a href="#"><i class="fas fa-random"></i></a>
-                  <a href="#"><i class="fas fa-search-plus"></i></a>
-                  <a href="#"><i class="far fa-heart"></i></a>
-                </div>
-                <div class="product-info">
-                  <h4>Blue dress for woman</h4>
-                  <del>£ 65.00</del>&nbsp;
-                  <ins>£ 39.00</ins>
-                  <div class="rating-wrap">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <span class="rating-num">(1)</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="product">
-                <span class="sale">- 40%</span>
-                <div class="product-img">
-                  <a href="#">
-                    <img src="./image/product_img1-1.webp" alt="product img">
-                  </a>
-                </div>
-                <div class="product-action">
-                  <a href="#"><i class="fas fa-cart-arrow-down"></i></a>
-                  <a href="#"><i class="fas fa-random"></i></a>
-                  <a href="#"><i class="fas fa-search-plus"></i></a>
-                  <a href="#"><i class="far fa-heart"></i></a>
-                </div>
-                <div class="product-info">
-                  <h4>Blue dress for woman</h4>
-                  <del>£ 65.00</del>&nbsp;
-                  <ins>£ 39.00</ins>
-                  <div class="rating-wrap">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <span class="rating-num">(1)</span>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

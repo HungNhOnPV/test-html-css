@@ -49,20 +49,20 @@ header {
   font-size: 14px;
 }
 
-.en {
+.dropdown__en {
   display: block;
   margin: 15px 30px 15px 0;
 }
 
-.en i {
+.dropdown__en i {
   margin-left: 2px;
 }
 
-.en:hover {
+.dropdown__en:hover {
  color: #FF324D;
 }
 
-.dropdown-content {
+.dropdown__content {
   display: none;
   position: absolute;
   background-color: #FFF;
@@ -73,16 +73,16 @@ header {
   list-style: none;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown__content {
   display: block;
 }
 
-.dropdown-content li a {
+.dropdown__content li a {
   text-transform: capitalize;
   font-size: 14px;
 }
 
-.dropdown-content li a:hover {
+.dropdown__content li a:hover {
   color: #FF324D;
 }
 
@@ -92,17 +92,17 @@ header {
   font-size: 14px;
 }
 
-.sign-in {
+.auth__signIn {
   margin: 15px 30px 15px 0;
   transition: 0.4s;
   text-transform: capitalize;
 }
 
-.sign-in:hover {
+.auth__signIn:hover {
   color: #FF324D;
 }
 
-.sign-in i {
+.auth__signIn i {
   margin-right: 2px;
 }
 
@@ -134,28 +134,28 @@ nav {
   cursor: pointer;
 }
 
-.navbar .dropdown-content {
+.navbar .dropdown__content {
   min-width: 200px;
 }
 
-.navbar .dropdown-content li {
+.navbar .dropdown__content li {
   padding: 10px;
 }
 
-.navbar .dropdown .dropdown-content li a {
+.navbar .dropdown .dropdown__content li a {
   text-transform: capitalize;
 }
 
 .navbar .dropdown .item {
-  left: -750px;
+  left: -700px;
   min-width: 1030px;
 }
 
 .navbar .dropdown .products {
-  left: -643px;
+  left: -585px;
 }
 
-.navbar .dropdown .dropdown-content {
+.navbar .dropdown .dropdown__content {
   top: 70px;
 }
 
@@ -211,19 +211,19 @@ td a:hover {
   position: relative;
 }
 
-.menu-banner {
+.banner__menu {
   width: 320px;
   height: 185px;
   margin: 10px 11px;
 }
 
-.shop-banner {
+.banner__shop {
   width: 244px;
   height: 222px;
   padding-left: 15px;
 }
 
-.layout {
+.banner__layout {
   width: 244px;
   height: 222px;
   background: rgba(0,0,0,0.2);
@@ -232,7 +232,7 @@ td a:hover {
   z-index: 5;
 }
 
-.info {
+.banner__info {
   position: absolute;
   top: 80px;
   right: 30px;
@@ -243,16 +243,16 @@ td a:hover {
   z-index: 10;
 }
 
-.info a {
+.banner__info a {
   text-transform: capitalize !important;
 }
 
-.info a:hover {
+.banner__info a:hover {
   color: #FF324D;
   transition: 0.5s ease;
 }
 
-.info a::after {
+.banner__info a::after {
   content: "";
   display: block;
   width: 35px;
@@ -261,12 +261,12 @@ td a:hover {
   transition: 0.5s ease;
 }
 
-.info a:hover::after {
+.banner__info a:hover::after {
   width: 70px;
   transition: 0.5s ease;
 }
 
-.shop-banner .info {
+.banner__shop .banner__info {
   position: absolute;
   top: 80px;
   right: 80px;
@@ -276,7 +276,7 @@ td a:hover {
   text-transform: uppercase;
 }
 
-.info button {
+.banner__info button {
   margin-top: 10px;
   padding: 10px 20px;
   background: #FFF;
@@ -286,23 +286,23 @@ td a:hover {
   color: #333;
 }
 
-.info button:hover {
+.banner__info button:hover {
   background-color: transparent;
   border: 1px solid #FFF;
   color: #FFF;
 }
 
-.shop-banner img {
+.banner__shop img {
   width: 244px;
   height: 222px;
 }
 
-.navbar .dropdown .navbar-icon {
+.navbar .dropdown .dropdown-icon {
   font-size: larger;
   margin-top: 6px;
 }
 
-.navbar .dropdown .navbar-icon .cart {
+.navbar .dropdown .dropdown-icon .cart {
   position: absolute;
   z-index: 10;
   left: 27px;
@@ -322,7 +322,7 @@ td a:hover {
 }
 
 /* main-content contact */
-.slider-banner {
+.sliderBanner {
   position: relative;
 }
 
