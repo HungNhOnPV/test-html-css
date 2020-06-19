@@ -111,6 +111,10 @@ nav {
   border-bottom: 1px solid #eeeeee;
 }
 
+nav .dropdown__en {
+  margin: 27px 30px 15px 0;
+}
+
 .logo {
   margin: 10px 0;
   width: 182px;
@@ -303,13 +307,13 @@ td a:hover {
 
 .navbar .dropdown .dropdown-icon {
   font-size: larger;
-  margin-top: 6px;
+  margin-top: 22px;
 }
 
 .navbar .dropdown .dropdown-icon .cart {
   position: absolute;
   z-index: 10;
-  left: 27px;
+  left: 17px;
   top: 16px;
   display: flex;
   justify-content: center;
@@ -891,6 +895,7 @@ form .btn:hover {
 
   .navbar .dropdown .dropdown-icon .cart {
     top: 6px;
+    left: 32px;
   }
 
   .main-content .sliderBanner {
